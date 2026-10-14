@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Palak's Portfolio</title>
+
+    <style>
+
+        /* Universal Selector */
+        * {
+            margin: 10px;
+        }
+
+        /* Element Selector */
+        body {
+            background-color: #f2f2f2;
+            color: black;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* Group Selector */
+        h1, h2 {
+            color: #333366;
+        }
+
+        /* ID Selector */
+        #title {
+            text-align: center;
+            background-color: #333366;
+            color: white;
+            font-size: 30px;
+            padding: 15px;
+            text-transform: uppercase;
+        }
+
+        /* Class Selector */
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            height: 180px;
+            width: 180px;
+        }
+
+        .heading {
+            color: #333366;
+            text-decoration-line: underline;
+            text-decoration-color: #333366;
+        }
+
+        /* Descendant Selector */
+        .section p {
+            text-align: justify;
+        }
+
+        /* Links */
+        a {
+            color: blue;
+            text-decoration-line: none;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #333366;
+            color: white;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1 id="title">My Student Portfolio</h1>
+
+    <!-- Profile -->
+    <div class="profile">
+
+        <img src="images/profile.jpeg" alt="Palak Kumari">
+
+        <h2>Palak Kumari</h2>
+
+        <p>palaksah0406@gmail.com</p>
+
+        <p>Contact No: 7462980416</p>
+
+    </div>
+
+    <hr>
+
+    <!-- About Me -->
+    <div class="section">
+
+        <h2 class="heading">About Me</h2>
+
+        <p>
+            Hello! My name is Palak Kumari.
+            I am a B.Tech student at SRMU Lucknow.
+            I am pursuing Computer Science Engineering
+            with Data Science and Artificial Intelligence.
+        </p>
+
+    </div>
+
+    <hr>
+
+    <!-- Career Objective -->
+    <div class="section">
+
+        <h2 class="heading">Career Objective</h2>
+
+        <p>
+            My aim is to improve my technical skills,
+            gain practical knowledge and become a
+            skilled software professional.
+        </p>
+
+    </div>
+
+    <hr>
+
+    <!-- My Skills -->
+    <div class="section">
+
+        <h2 class="heading">My Skills</h2>
+
+        <ul>
+            <li>Programming
+                <ol>
+                    <li>C</li>
+                    <li>Python</li>
+                    <li>MS Word</li>
+                </ol>
+            </li>
+        </ul>
+
+    </div>
+
+    <hr>
+
+    <!-- Educational Qualifications -->
+    <div class="section">
+
+        <h2 class="heading">Educational Qualifications</h2>
+
+        <br>
+
+        <table>
+
+            <tr>
+                <th>Qualification</th>
+                <th>Board / University</th>
+                <th>Year</th>
+                <th>Percentage</th>
+                <th>Marksheet Link</th>
+            </tr>
+
+            <tr>
+                <td>Class 10th</td>
+                <td>CBSE</td>
+                <td>2023</td>
+                <td>88%</td>
+                <td>
+                    <a href="marksheets/10th.pdf">
+                        View Marksheet
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Class 12th</td>
+                <td>CBSE</td>
+                <td>2025</td>
+                <td>80%</td>
+                <td>
+                    <a href="marksheets/12th.pdf">
+                        View Marksheet
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>B.Tech</td>
+                <td>SRMU Lucknow</td>
+                <td>2025 - Present</td>
+                <td>Currently Pursuing</td>
+                <td>-</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <hr>
+
+    <!-- My Marksheets -->
+    <div class="section">
+
+        <h2 class="heading">My Marksheets</h2>
+
+        <p>
+            <a href="marksheets/10th.pdf">
+                View Class 10th Marksheet
+            </a>
+        </p>
+
+        <p>
+            <a href="marksheets/12th.pdf">
+                View Class 12th Marksheet
+            </a>
+        </p>
+
+    </div>
+
+    <hr>
+
+    <!-- My Certificates -->
+    <div class="section">
+
+        <h2 class="heading">My Certificates</h2>
+
+        <p>
+            <a href="certificates/l%26t.pdf" target="_blank">
+                L&T Certificate
+            </a>
+        </p>
+
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>Thank you for visiting my portfolio!</p>
+
+        <p>Created by Palak Kumari</p>
+
+    </footer>
+
+</body>
+
+</html>
